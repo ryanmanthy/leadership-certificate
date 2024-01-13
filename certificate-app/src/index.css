@@ -19,3 +19,10 @@ code {
 .bold-line {
   font-weight: bold;
 }
+
+@media (min-width: 768px) {
+  .h1-max-width-on-desktop {
+    max-width: 30vw; 
+    left: 0;
+  }
+}
